@@ -7,13 +7,13 @@ This repository contains a working configuration file for [Logiops (logid)](http
 
 ## Table of Contents
 
-- [Device Features Overview](#🖱-device-features-overview)
-- [Config File Location](#📂-config-file-location)
-- [Fixing Missing Logiops Service](#❗-fixing-missing-logiops-service)
-- [Requirements](#🔧-requirements)
-- [Credits](#📚-credits)
-- [License](#🔒-license)
-- [Contributions](#✨-contributions)
+- [Device Features Overview](#device-features-overview)
+- [Config File Location](#config-file-location)
+- [Fixing Missing Logiops Service](#fixing-missing-logiops-service)
+- [Requirements](#requirements)
+- [Credits](#credits)
+- [License](#license)
+- [Contributions](#contributions)
 
 ## 🖱 Device Features Overview
 The following mappings are examples.
@@ -43,7 +43,7 @@ For full details, refer to the device documentation:
 [docs/mx_vertical.md](docs/mx_vertical.md)
 
 
-## 📂 Config File Location
+## Config File Location
 
 Logiops looks for its configuration at:
 
@@ -64,7 +64,7 @@ sudo systemctl restart logid
 ```
 
 
-## ❗ Fixing Missing Service
+## Fixing Missing Service
 
 If `systemctl status logiops` gives:
 
@@ -107,23 +107,23 @@ sudo systemctl enable --now logiops
 
 Now Logiops will run on boot, and your MX Vertical’s top button should work consistently.
 
-## 🔧 Requirements
+## Requirements
 
 - Linux system with `systemd`
 - `logid` daemon running (via Logiops)
 - Appropriate udev permissions (see [Logiops repo](https://github.com/PixlOne/logiops#permissions) if needed)
 
-## 📚 Credits
+## Credits
 
 - This config is for use with [Logiops (logid)](https://github.com/PixlOne/logiops), an open-source user-space driver for Logitech devices.
 - All credit for the Logiops project goes to [PixlOne](https://github.com/PixlOne).
 - This repo contains only configuration data, **no source code from Logiops**.
 - README formatting and structure by [ChatGPT (OpenAI)](https://openai.com/chatgpt)
 
-## 🔒 License
+## License
 
 This configuration is released under the MIT License. You are free to use, modify, and share it. Please credit this repo if it helps you.
 
-## ✨ Contributions
+## Contributions
 
 Feel free to fork, modify, or submit improvements for different Logitech mice.

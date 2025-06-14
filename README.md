@@ -9,13 +9,13 @@ This repository contains a working configuration file for [Logiops (logid)](http
 
 - [Device Features Overview](#device-features-overview)
 - [Config File Location](#config-file-location)
-- [Fixing Missing Logiops Service](#fixing-missing-logiops-service)
+- [Fixing Missing Logiops Service](#fixing-missing-service)
 - [Requirements](#requirements)
 - [Credits](#credits)
 - [License](#license)
 - [Contributions](#contributions)
 
-## 🖱 Device Features Overview
+## Device Features Overview
 The following mappings are examples.
 
 ### Wireless Mobile Mouse MX Anywhere 2

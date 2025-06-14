@@ -1,9 +1,16 @@
 # MX Vertical Advanced — Button Mapping Overview
 
-## DPI Setting
+## Table of Contents
+
+- [Default config](#Default-Config)
+- [All configurations](#Wireless-Mouse-MX-Vertical-Configurations-Overview)
+
+## Default Config
+
+### DPI Setting
 - Default DPI: **1800**
 
-## Button CID 0x56 (Forward Button)
+### Button CID 0x56 (Forward Button)
 
 | Gesture Direction | Trigger Mode | Action Type     | Effect                                      |
 |-------------------|--------------|-----------------|---------------------------------------------|
@@ -11,7 +18,7 @@
 | Up                | OnRelease    | ChangeDPI      | Increase DPI by 500                          |
 | Down              | OnRelease    | ChangeDPI      | Decrease DPI by 500                          |
 
-## Button CID 0xfd (Gesture Button)
+### Button CID 0xfd (Gesture Button)
 
 | Gesture Direction | Trigger Mode | Action Type     | Effect                                                        |
 |-------------------|--------------|-----------------|---------------------------------------------------------------|
@@ -23,7 +30,7 @@
 
 ---
 
-# Wireless Mobile Mouse MX Vertical Configurations Overview
+# Wireless Mouse MX Vertical Configurations Overview
 
 This mouse supports following configuration files:
 

@@ -19,8 +19,8 @@ This repository contains a working configuration file for [Logiops (logid)](http
 
 | Device                         | Documentation Link                  |
 |-------------------------------|-----------------------------------|
-| Wireless Mobile Mouse MX Anywhere 2 | [docs/mx_anywhere_2.md](docs/mx_anywhere_2.md) |
-| MX Vertical Advanced Ergonomic Mouse | [docs/mx_vertical.md](docs/mx_vertical.md)    |
+| MX Anywhere 2 | [docs/mx_anywhere_2.md](docs/mx_anywhere_2.md) |
+| MX Vertical | [docs/mx_vertical.md](docs/mx_vertical.md)    |
 
 
 ## Config File Location

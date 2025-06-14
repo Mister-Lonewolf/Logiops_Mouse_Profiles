@@ -1,5 +1,4 @@
 # Wireless Mobile Mouse MX Anywhere 2 — Full Button Mapping
-The following configuration is the default config. For more configurations look below.
 
 ## Table of Contents
 

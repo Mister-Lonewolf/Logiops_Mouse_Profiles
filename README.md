@@ -94,7 +94,13 @@ The following mappings are examples.
 
 ---
 
-For full button mapping details and code, see the [device-specific documentation](docs/).
+### Wireless Mobile Mouse MX Anywhere 2  
+For detailed descriptions and usage, please see the device documentation:  
+[docs/mx_anywhere_2.md](docs/mx_anywhere_2.md)
+
+### MX Vertical Advanced Ergonomic Mouse  
+For full details, refer to the device documentation:  
+[docs/mx_vertical.md](docs/mx_vertical.md)
 
 ---
 

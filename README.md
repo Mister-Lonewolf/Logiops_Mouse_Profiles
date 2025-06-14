@@ -5,7 +5,43 @@ This repository contains a working configuration file for [Logiops (logid)](http
 - **Logitech MX Anywhere 2**
 - **Logitech MX Vertical**
 
----
+## Table of Contents
+
+- [Device Features Overview](#🖱-device-features-overview)
+- [Config File Location](#📂-config-file-location)
+- [Fixing Missing Logiops Service](#❗-fixing-missing-logiops-service)
+- [Requirements](#🔧-requirements)
+- [Credits](#📚-credits)
+- [License](#🔒-license)
+- [Contributions](#✨-contributions)
+
+## 🖱 Device Features Overview
+The following mappings are examples.
+
+### Wireless Mobile Mouse MX Anywhere 2
+- Default DPI: 1400
+- Forward button:
+  - Tap: Next page shortcut (Alt + Right Arrow)
+  - Gesture Up/Down: Increase/Decrease DPI by 500
+- Gesture button:
+  - Tap: Open activities overview (Meta + A)
+  - Swipe Left/Right: Switch virtual desktops (Ctrl + Alt + Left/Right)
+  - Swipe Up/Down: Maximize/Minimize windows (Meta + Up/Down)
+
+### MX Vertical Advanced Ergonomic Mouse
+- Default DPI: 1800
+- Forward button: Same as MX Anywhere 2
+- Gesture button: Same mappings as MX Anywhere 2’s gesture button
+
+
+### Wireless Mobile Mouse MX Anywhere 2  
+For detailed descriptions and usage, please see the device documentation:  
+[docs/mx_anywhere_2.md](docs/mx_anywhere_2.md)
+
+### MX Vertical Advanced Ergonomic Mouse  
+For full details, refer to the device documentation:  
+[docs/mx_vertical.md](docs/mx_vertical.md)
+
 
 ## 📂 Config File Location
 
@@ -27,7 +63,6 @@ Then restart the Logiops service:
 sudo systemctl restart logid
 ```
 
----
 
 ## ❗ Fixing Missing Service
 
@@ -39,7 +74,7 @@ Unit logiops.service could not be found
 
 Then the systemd service file wasn't installed or registered. You can create it manually:
 
-### ➕ Create the Service File
+### Create the Service File
 
 ```bash
 sudo nano /etc/systemd/system/logiops.service
@@ -60,7 +95,7 @@ Restart=on-failure
 WantedBy=multi-user.target
 ```
 
-> 🛠 Adjust `ExecStart` if `which logid` gives a different path.
+> Adjust `ExecStart` if `which logid` gives a different path.
 
 Then enable and start it:
 
@@ -72,45 +107,11 @@ sudo systemctl enable --now logiops
 
 Now Logiops will run on boot, and your MX Vertical’s top button should work consistently.
 
----
-
-## 🖱 Device Features Overview
-The following mappings are examples.
-
-### Wireless Mobile Mouse MX Anywhere 2
-- Default DPI: 1400
-- Forward button:
-  - Tap: Next page shortcut (Alt + Right Arrow)
-  - Gesture Up/Down: Increase/Decrease DPI by 500
-- Gesture button:
-  - Tap: Open activities overview (Meta + A)
-  - Swipe Left/Right: Switch virtual desktops (Ctrl + Alt + Left/Right)
-  - Swipe Up/Down: Maximize/Minimize windows (Meta + Up/Down)
-
-### MX Vertical Advanced Ergonomic Mouse
-- Default DPI: 1800
-- Forward button: Same as MX Anywhere 2
-- Gesture button: Same mappings as MX Anywhere 2’s gesture button
-
----
-
-### Wireless Mobile Mouse MX Anywhere 2  
-For detailed descriptions and usage, please see the device documentation:  
-[docs/mx_anywhere_2.md](docs/mx_anywhere_2.md)
-
-### MX Vertical Advanced Ergonomic Mouse  
-For full details, refer to the device documentation:  
-[docs/mx_vertical.md](docs/mx_vertical.md)
-
----
-
 ## 🔧 Requirements
 
 - Linux system with `systemd`
 - `logid` daemon running (via Logiops)
 - Appropriate udev permissions (see [Logiops repo](https://github.com/PixlOne/logiops#permissions) if needed)
-
----
 
 ## 📚 Credits
 
@@ -119,13 +120,9 @@ For full details, refer to the device documentation:
 - This repo contains only configuration data, **no source code from Logiops**.
 - README formatting and structure by [ChatGPT (OpenAI)](https://openai.com/chatgpt)
 
----
-
 ## 🔒 License
 
 This configuration is released under the MIT License. You are free to use, modify, and share it. Please credit this repo if it helps you.
-
----
 
 ## ✨ Contributions
 

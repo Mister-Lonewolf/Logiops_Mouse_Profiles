@@ -3,9 +3,10 @@ The following configuration is the default config. For more configurations look 
 
 ## Table of Contents
 
-- [Default config](#Default-config)
+- [Default config](#Default-Config)
+- [All configurations](#Wireless-Mobile-Mouse-MX-Anywhere-2-Configurations-Overview)
 
-## Default config
+## Default Config
 
 ### DPI Setting
 - Default DPI: **1400**

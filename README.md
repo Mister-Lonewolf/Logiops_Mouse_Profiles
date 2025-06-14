@@ -74,16 +74,27 @@ Now Logiops will run on boot, and your MX Vertical’s top button should work co
 
 ---
 
-## 🖱 Features
+## 🖱 Device Features Overview
+The following mappings are examples.
 
-This config includes custom button mappings and sensitivity settings tailored for both devices. Example features may include:
+### Wireless Mobile Mouse MX Anywhere 2
+- Default DPI: 1400
+- Forward button:
+  - Tap: Next page shortcut (Alt + Right Arrow)
+  - Gesture Up/Down: Increase/Decrease DPI by 500
+- Gesture button:
+  - Tap: Open activities overview (Meta + A)
+  - Swipe Left/Right: Switch virtual desktops (Ctrl + Alt + Left/Right)
+  - Swipe Up/Down: Maximize/Minimize windows (Meta + Up/Down)
 
-- Horizontal scroll on side buttons
-- Button remapping (e.g., gesture button → middle click)
-- Custom DPI levels
-- Per-device behavior customization
+### MX Vertical Advanced Ergonomic Mouse
+- Default DPI: 1800
+- Forward button: Same as MX Anywhere 2
+- Gesture button: Same mappings as MX Anywhere 2’s gesture button
 
-Refer to the `logid.cfg` for full details and modify as needed.
+---
+
+For full button mapping details and code, see the [device-specific documentation](docs/).
 
 ---
 

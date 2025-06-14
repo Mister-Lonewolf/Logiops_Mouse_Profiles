@@ -1,10 +1,16 @@
-# Wireless Mobile Mouse MX Anywhere 2 — Full Button Mapping Default Config
+# Wireless Mobile Mouse MX Anywhere 2 — Full Button Mapping
 The following configuration is the default config. For more configurations look below.
 
-## DPI Setting
+## Table of Contents
+
+- [Default config](#Default-config)
+
+## Default config
+
+### DPI Setting
 - Default DPI: **1400**
 
-## Button CID 0x56 (Forward Button)
+### Button CID 0x56 (Forward Button)
 
 This button supports gestures and key mappings:
 
@@ -14,7 +20,7 @@ This button supports gestures and key mappings:
 | Up                | OnRelease    | ChangeDPI      | Increase DPI by 500                          |
 | Down              | OnRelease    | ChangeDPI      | Decrease DPI by 500                          |
 
-## Button CID 0x52 (Gesture Button)
+### Button CID 0x52 (Gesture Button)
 
 Supports multi-direction gestures:
 

@@ -16,31 +16,11 @@ This repository contains a working configuration file for [Logiops (logid)](http
 - [Contributions](#contributions)
 
 ## Device Features Overview
-The following mappings are examples.
 
-### Wireless Mobile Mouse MX Anywhere 2
-- Default DPI: 1400
-- Forward button:
-  - Tap: Next page shortcut (Alt + Right Arrow)
-  - Gesture Up/Down: Increase/Decrease DPI by 500
-- Gesture button:
-  - Tap: Open activities overview (Meta + A)
-  - Swipe Left/Right: Switch virtual desktops (Ctrl + Alt + Left/Right)
-  - Swipe Up/Down: Maximize/Minimize windows (Meta + Up/Down)
-
-### MX Vertical Advanced Ergonomic Mouse
-- Default DPI: 1800
-- Forward button: Same as MX Anywhere 2
-- Gesture button: Same mappings as MX Anywhere 2’s gesture button
-
-
-### Wireless Mobile Mouse MX Anywhere 2  
-For detailed descriptions and usage, please see the device documentation:  
-[docs/mx_anywhere_2.md](docs/mx_anywhere_2.md)
-
-### MX Vertical Advanced Ergonomic Mouse  
-For full details, refer to the device documentation:  
-[docs/mx_vertical.md](docs/mx_vertical.md)
+| Device                         | Documentation Link                  |
+|-------------------------------|-----------------------------------|
+| Wireless Mobile Mouse MX Anywhere 2 | [docs/mx_anywhere_2.md](docs/mx_anywhere_2.md) |
+| MX Vertical Advanced Ergonomic Mouse | [docs/mx_vertical.md](docs/mx_vertical.md)    |
 
 
 ## Config File Location

@@ -1,4 +1,4 @@
-# Logiops Configuration for MX Anywhere 2 & MX Vertical
+# Logiops Configurations
 
 This repository contains a working configuration file for [Logiops (logid)](https://github.com/PixlOne/logiops), specifically tuned for:
 
@@ -85,7 +85,7 @@ sudo systemctl daemon-reload
 sudo systemctl enable --now logiops
 ```
 
-Now Logiops will run on boot, and your MX Vertical’s top button should work consistently.
+Now Logiops will run on boot, and your MX profile should work consistently.
 
 ## Requirements
 

@@ -9,6 +9,7 @@ This repository contains a working configuration file for [Logiops (logid)](http
 
 - [Device Features Overview](#device-features-overview)
 - [Config File Location](#config-file-location)
+- [Adjust config file](#adjust-config-file)
 - [Fixing Missing Logiops Service](#fixing-missing-service)
 - [Requirements](#requirements)
 - [Credits](#credits)
@@ -21,6 +22,7 @@ This repository contains a working configuration file for [Logiops (logid)](http
 |-------------------------------|-----------------------------------|
 | MX Anywhere 2 | [docs/mx_anywhere_2.md](docs/mx_anywhere_2.md) |
 | MX Vertical | [docs/mx_vertical.md](docs/mx_vertical.md)    |
+| MX Master	|	[docs/mx_master.md](docs/mx_master.md) |
 
 
 ## Config File Location
@@ -43,6 +45,19 @@ Then restart the Logiops service:
 sudo systemctl restart logid
 ```
 
+## Adjust config file
+Ofcourse, you can adjust these files to fit your own needs. However, to do this, you will need to experiment a lot and lookup a lot of information in the **logid** repository and in general on the world wide web. One hint i can give you is to use the logid command to check your button id's and the exact name of your mouse.
+
+By using the following command you get a nice overview of the devices and buttons logid could find. Be sure to check the **logid** repository! (you can find the link in the [Credits](#credits)).
+
+```bash
+sudo logid -v
+```
+
+Ps: For this command you need to be sure the logid service is stopped, otherwise your devices will not be recognised. You can stop it with the next command:
+```bash
+sudo systemctl stop logid
+```
 
 ## Fixing Missing Service
 

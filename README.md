@@ -4,6 +4,7 @@ This repository contains a working configuration file for [Logiops (logid)](http
 
 - **Logitech MX Anywhere 2**
 - **Logitech MX Vertical**
+- **Logitech MX Master**
 
 ## Table of Contents
 

@@ -11,6 +11,7 @@ This repository contains a working configuration file for [Logiops (logid)](http
 - [Device Features Overview](#device-features-overview)
 - [Config File Location](#config-file-location)
 - [Adjust config file](#adjust-config-file)
+- [Autoscroll](#autoscroll)
 - [Fixing Missing Logiops Service](#fixing-missing-service)
 - [Requirements](#requirements)
 - [Credits](#credits)
@@ -59,6 +60,18 @@ Ps: For this command you need to be sure the logid service is stopped, otherwise
 ```bash
 sudo systemctl stop logid
 ```
+
+## Autoscroll
+Windows offers a OS wide feature to autoscroll at a certain speed by clicking your vertical mouse wheel and draging the mouse. Sadly, some Linux distros, like Ubuntu 24.04 where most of these configs are designed on, does not support this out of the box. You can solve this easely with some scripts on X11. However, on Wayland it's a different story.
+
+Thats why I would recommend to do this at a browser level, since by my knowledge it is mainly used there. There are different browsers to use and each has their own way to achieve this to a certain degree.
+
+### Brave
+For the Brave browser it is as simple as setting a flag in it's settings. It's as simple as pasting the *flag location* (which you can find in the table below) in your adress bar and enabeling the marked entry.
+
+|                          Browser version                            |              Flag location              |
+| ------------------------------------------------------------------- | --------------------------------------- |
+| Brave 1.88.138 (Official Build) (64-bit) - Chromium: 146.0.7680.178 | brave://flags/#middle-button-autoscroll |
 
 ## Fixing Missing Service
 
